@@ -1,4 +1,4 @@
-package com.esprit.article;
+package com.esprit.article.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,6 +8,8 @@ import java.util.Optional;
 
 //import javax.validation.Valid;
 
+import com.esprit.article.repository.ArticleRepository;
+import com.esprit.article.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,9 +23,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.esprit.article.ResourceNotFoundException;
-import com.esprit.article.Article;
-import com.esprit.article.ArticleRepository;
+import com.esprit.article.entity.Article;
 
 
 @CrossOrigin(origins = "http://localhost:4200") 

@@ -1,4 +1,4 @@
-package com.esprit.article;
+package com.esprit.article.entity;
 
 import javax.persistence.*;
 
