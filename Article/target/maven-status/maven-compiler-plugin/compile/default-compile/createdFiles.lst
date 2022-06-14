@@ -1,0 +1,5 @@
+com\esprit\article\Article.class
+com\esprit\article\ArticleMsApplication.class
+com\esprit\article\ArticleRepository.class
+com\esprit\article\ResourceNotFoundException.class
+com\esprit\article\articleController.class
