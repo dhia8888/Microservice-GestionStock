@@ -1,10 +1,10 @@
-package com.esprit.article.entity;
+package com.esprit.produit.entity;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "article")
-public class Article {
+@Table(name = "produit")
+public class Produit {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
@@ -17,15 +17,15 @@ public class Article {
 	
 	
 	
-	public Article() {
+	public Produit() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
 
 
-	public Article(Long id, String code, String libelle, float pa, int tva, int fodec, int dc, float pv, float stk_init,
-			float stock, String image, long id_cat, long id_scat) {
+	public Produit(Long id, String code, String libelle, float pa, int tva, int fodec, int dc, float pv, float stk_init,
+				   float stock, String image, long id_cat, long id_scat) {
 		super();
 		this.id = id;
 		this.code = code;
@@ -125,7 +125,7 @@ public class Article {
 
 	@Override
 	public String toString() {
-		return "Article [id=" + id + ", code=" + code + ", libelle=" + libelle +    ", stock=" + stock
+		return "Produit [id=" + id + ", code=" + code + ", libelle=" + libelle +    ", stock=" + stock
 				+ ", image=" + image + ", id_cat=" + id_cat + ", id_scat=" + id_scat + "]";
 	}
 	

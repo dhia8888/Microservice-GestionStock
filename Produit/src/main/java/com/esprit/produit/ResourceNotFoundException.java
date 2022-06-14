@@ -1,4 +1,4 @@
-package com.esprit.article;
+package com.esprit.produit;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
