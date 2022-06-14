@@ -10,6 +10,7 @@
         <module name="Fournisseur" />
         <module name="Client" />
         <module name="Facture" />
+        <module name="Article" />
       </profile>
       <profile name="Annotation profile for GestionStock" enabled="true">
         <sourceOutputDir name="../Article/Categorie/target/generated-sources/annotations" />
