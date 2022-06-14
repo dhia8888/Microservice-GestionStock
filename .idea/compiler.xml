@@ -6,7 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Article" />
+      </profile>
+      <profile name="Annotation profile for GestionStock" enabled="true">
+        <sourceOutputDir name="../Article/Categorie/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../Article/Categorie/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Categorie" />
       </profile>
     </annotationProcessing>
   </component>

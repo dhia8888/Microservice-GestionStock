@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Article</module>
+        <module>Client</module>
+        <module>Facture</module>
+        <module>Fournisseur</module>
     </modules>
 
 
