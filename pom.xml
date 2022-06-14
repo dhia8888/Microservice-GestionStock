@@ -13,6 +13,7 @@
         <module>Client</module>
         <module>Facture</module>
         <module>Fournisseur</module>
+        <module>Categorie-a</module>
     </modules>
 
 
