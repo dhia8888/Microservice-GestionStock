@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Categorie-a" />
         <module name="Fournisseur" />
         <module name="Client" />
-        <module name="Article" />
         <module name="Facture" />
       </profile>
       <profile name="Annotation profile for GestionStock" enabled="true">

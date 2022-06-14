@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Article</artifactId>
+    <artifactId>Produit</artifactId>
     <packaging>pom</packaging>
 
     <properties>
