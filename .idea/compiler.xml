@@ -9,6 +9,7 @@
         <module name="Categorie-a" />
         <module name="Fournisseur" />
         <module name="Client" />
+        <module name="eureka-server" />
         <module name="Facture" />
         <module name="Article" />
       </profile>
