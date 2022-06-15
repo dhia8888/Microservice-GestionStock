@@ -15,6 +15,7 @@
         <module>Categorie-a</module>
         <module>Article</module>
         <module>eureka-server</module>
+        <module>Zuul</module>
     </modules>
 
 
