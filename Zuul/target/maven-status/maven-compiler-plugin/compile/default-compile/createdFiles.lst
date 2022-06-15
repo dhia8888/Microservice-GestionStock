@@ -1,7 +1,0 @@
-com\esprit\gateway\communication\ZuulServerApplication.class
-com\esprit\gateway\communication\FeignConfig.class
-com\esprit\gateway\filters\RouteFilter.class
-com\esprit\gateway\communication\ServletInitializer.class
-com\esprit\gateway\filters\PostFilter.class
-com\esprit\gateway\filters\ErrorFilter.class
-com\esprit\gateway\filters\PreFilter.class

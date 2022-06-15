@@ -15,7 +15,8 @@
         <module>Categorie-a</module>
         <module>Article</module>
         <module>discovery-server</module>
-        <module>Zuul</module>
+        <module>apigw</module>
+        <module>GatewayServerZuul</module>
     </modules>
 
 

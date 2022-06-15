@@ -2,13 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Categorie-a" />
         <module name="config-server" />
+        <module name="apigw" />
         <module name="Fournisseur" />
+        <module name="GatewayServerZuul" />
         <module name="Article" />
         <module name="Zuul" />
         <module name="Client" />
@@ -32,6 +35,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Facture" options="-parameters" />
       <module name="Fournisseur" options="-parameters" />
+      <module name="GatewayServerZuul" options="-parameters" />
+      <module name="apigw" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
     </option>
   </component>
