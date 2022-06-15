@@ -1,0 +1,5 @@
+com\esprit\categories\ResourceNotFoundException.class
+com\esprit\categories\CategorieMsApplication.class
+com\esprit\categories\CategorieRestAPI.class
+com\esprit\categories\Categorie.class
+com\esprit\categories\CategorieRepository.class
