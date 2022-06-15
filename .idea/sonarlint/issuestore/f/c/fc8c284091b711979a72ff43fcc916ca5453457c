@@ -1,0 +1,17 @@
+
+\	java:S107"BConstructor has 13 parameters, which is greater than 7 authorized.(ìªíºüÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìªíºüÿÿÿÿ
+f	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªøÁ‡
+f	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªøÁ‡
+k	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ“å¸ûÿÿÿÿ
+k	java:S117|"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òç§Îûÿÿÿÿ
+k	java:S116"QRename this field "id_cat" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëùŒüÿÿÿÿ
+l	java:S116"RRename this field "id_scat" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ËßÄúÿÿÿÿ
+M
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ
+n
+java:S1172"SRemove these unused method parameters "pa", "tva", "fodec", "dc", "pv", "stk_init".(ìªíºüÿÿÿÿ
+c	java:S100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿª‡
+h	java:S100p"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ“å¸ûÿÿÿÿ
+c	java:S100v"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÚêá
+h	java:S100|"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òç§Îûÿÿÿÿ
