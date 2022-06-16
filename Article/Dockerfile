@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8803
-ADD /target/Article-MS-1.0.2-SNAPSHOT.jar Article-MS-1.0.2-SNAPSHOT.jar
-ENTRYPOINT [ "java", "-jar", "Article-MS-1.0.2-SNAPSHOT.jar" ]
+ADD /target/Article-1.0-SNAPSHOT.jar Article-1.0-SNAPSHOT.jar
+ENTRYPOINT [ "java", "-jar", "Article-1.0-SNAPSHOT.jar" ]
