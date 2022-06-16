@@ -9,5 +9,5 @@ JArticle/src/main/java/com/esprit/article/controller/articleController.java,3\a
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ?
 Article/pom.xml,f\7\f7d992e48c6ff557255a221a9698f8f12a0c71fe
-B
-Article/Dockerfile,f\e\fe650594058ac066f8e78379f5784e85ba68d0af
+r
+BArticle/src/main/java/com/esprit/article/ArticleMsApplication.java,8\f\8fd2d8a4afbc6420d9037f8b59f3f41bf8a14d1f

@@ -5,27 +5,15 @@
     <file url="file://$PROJECT_DIR$/Article/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Categorie-a/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Categorie-a/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Facture/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Facture/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Fournisseur/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Fournisseur/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GatewayServerZuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GatewayServerZuul/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Produit/Categorie/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Produit/Categorie/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Produit/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Produit/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Zuul/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Zuul/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apigw/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apigw/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discovery-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discovery-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

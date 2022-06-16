@@ -1,4 +1,4 @@
-package com.esprit.categories;
+package com.esprit.categories.entitiy;
 
 import java.io.Serializable;
 

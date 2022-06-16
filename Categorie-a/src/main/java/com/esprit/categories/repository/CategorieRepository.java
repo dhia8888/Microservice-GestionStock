@@ -1,5 +1,6 @@
-package com.esprit.categories;
+package com.esprit.categories.repository;
 
+import com.esprit.categories.entitiy.Categorie;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

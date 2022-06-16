@@ -1,5 +1,7 @@
 package com.esprit.categories;
 
+import com.esprit.categories.entitiy.Categorie;
+import com.esprit.categories.repository.CategorieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
