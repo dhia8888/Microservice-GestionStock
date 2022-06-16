@@ -1,0 +1,5 @@
+com\esprit\client\Client.class
+com\esprit\client\ResourceNotFoundException.class
+com\esprit\client\ClientMsApplication.class
+com\esprit\client\ClientRepository.class
+com\esprit\client\ClientRestAPI.class
