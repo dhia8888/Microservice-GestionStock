@@ -1,0 +1,6 @@
+com\esprit\fournisseur\FournisseurRepository.class
+com\esprit\fournisseur\FournisseurRestAPI.class
+com\esprit\fournisseur\FournisseurApplication.class
+com\esprit\fournisseur\CommandeFournisseur.class
+com\esprit\fournisseur\Fournisseur.class
+com\esprit\fournisseur\LigneCommandeFournisseur.class
