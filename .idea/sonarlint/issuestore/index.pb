@@ -27,10 +27,6 @@ C
 Categorie-a/pom.xml,9\7\9782684a79299869249e7f2aca9b5215ebb3b543
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-@
-apigw/Dockerfile,4\0\40a492c5523328704f098aaf7d56ba0a882a73d4
-F
-Fournisseur/Dockerfile,1\f\1ff5f4d58f72b5d9dba788450708a6d79af7de18
 z
 JFacture/src/main/java/com/esprit/facture/repository/FactureRepository.java,6\7\674896a80e5abb6cdd05d14a2c3d6a32e61f486d
 B
