@@ -25,8 +25,6 @@ FCategorie-a/src/main/java/com/esprit/categories/entitiy/Categorie.java,5\a\5a6
 Sdiscovery-server/src/main/java/com/esprit/discovery/DiscoveryServerApplication.java,5\1\51469cc90cad85e5026e998def3e9557b7053649
 C
 Categorie-a/pom.xml,9\7\9782684a79299869249e7f2aca9b5215ebb3b543
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 z
 JFacture/src/main/java/com/esprit/facture/repository/FactureRepository.java,6\7\674896a80e5abb6cdd05d14a2c3d6a32e61f486d
 B

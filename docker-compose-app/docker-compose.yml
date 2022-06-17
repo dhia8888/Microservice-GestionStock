@@ -1,14 +1,14 @@
 version: "2.2"
 services:
-  discovery:
-    container_name: discovery
-    build: ../discovery-server
+  Eureka:
+    container_name: eureka-server
+    build: ../eureka-server
     ports:
       - "8761:8761"
-    hostname: discovery
+    hostname: eureka-server
     environment:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
-    image: "discovery-server"
+    image: "eureka-server"
 
   Gateway:
     container_name: GatewayServerZuul
@@ -20,7 +20,7 @@ services:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
     image: "gateway_serverzuul"
     depends_on:
-      - discovery-server
+      - Eureka
   Fournisseur:
     container_name: fournisseur-service
     build: ../Fournisseur
@@ -31,7 +31,7 @@ services:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
     image: "candidature-service"
     depends_on:
-      - discovery-server
+      - Eureka
 
   facture:
     container_name: facture-service
@@ -43,7 +43,7 @@ services:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
     image: "facture-service"
     depends_on:
-      - discovery-server
+      - Eureka
 
   article:
     container_name: article
@@ -55,7 +55,7 @@ services:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
     image: "article-service"
     depends_on:
-      - discovery-server
+      - Eureka
 
   Categorie:
     container_name: Categorie-a
@@ -67,7 +67,7 @@ services:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
     image: "categorie-service"
     depends_on:
-      - discovery-server
+      - Eureka
 
   node:
     container_name: node-service
@@ -90,4 +90,4 @@ services:
       - "27017:27017"
     hostname: mongodb
     depends_on:
-      - "discovery-server"
+      - "Eureka"

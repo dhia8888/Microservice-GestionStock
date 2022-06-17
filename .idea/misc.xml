@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/discovery-server/pom.xml" />
         <option value="$PROJECT_DIR$/apigw/pom.xml" />
         <option value="$PROJECT_DIR$/GatewayServerZuul/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

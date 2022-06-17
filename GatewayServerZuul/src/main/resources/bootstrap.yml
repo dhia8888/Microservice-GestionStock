@@ -43,8 +43,9 @@ zuul:
       path: /client/**
       serviceId: client-service
     livraison:
-      path: /livraison/**
-      serviceId: livraison-service
+      path: /node-service/**
+      serviceId: node-service
+
   host:
      socket-timeout-millis : 30000
  

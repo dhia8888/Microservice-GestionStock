@@ -14,9 +14,9 @@
         <module>Fournisseur</module>
         <module>Categorie-a</module>
         <module>Article</module>
-        <module>discovery-server</module>
         <module>apigw</module>
         <module>GatewayServerZuul</module>
+        <module>eureka-server</module>
     </modules>
 
 
