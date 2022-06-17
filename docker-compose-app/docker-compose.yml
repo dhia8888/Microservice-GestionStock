@@ -2,7 +2,7 @@ version: "2.2"
 services:
   discovery:
     container_name: discovery
-    build: ../../discovery-server
+    build: ../discovery-server
     ports:
       - "8761:8761"
     hostname: discovery
@@ -12,7 +12,7 @@ services:
 
   Gateway:
     container_name: GatewayServerZuul
-    build: ../../GatewayServerZuul
+    build: ../GatewayServerZuul
     ports:
       - "8054:8054"
     hostname: GatewayServerZuul
@@ -23,7 +23,7 @@ services:
       - discovery-server
   Fournisseur:
     container_name: fournisseur-service
-    build: ../../Fournisseur
+    build: ../Fournisseur
     ports:
       - "8800:8800"
     hostname: fournisseur
@@ -35,7 +35,7 @@ services:
 
   facture:
     container_name: facture-service
-    build: ../../facture-service
+    build: ../facture-service
     ports:
       - "8880:8880"
     hostname: facture
@@ -47,7 +47,7 @@ services:
 
   article:
     container_name: article
-    build: ../../Article
+    build: ../Article
     ports:
       - "8085:8085"
     hostname: article
@@ -59,7 +59,7 @@ services:
 
   Categorie:
     container_name: Categorie-a
-    build: ../../categorie-service
+    build: ../categorie-service
     ports:
       - "8086:8086"
     hostname: categorie
@@ -72,7 +72,7 @@ services:
   node:
     container_name: node-service
     image: "node-service"
-    build: ../../node-service
+    build: ../node-service
     ports:
       - "3000:5000"
     hostname: node-service
