@@ -1,53 +1,83 @@
-version: "3.9"
+version: "2.2"
 services:
   discovery:
-    build:  ../../discovery-server
+    container_name: discovery
+    build: ../../discovery-server
     ports:
       - "8761:8761"
+    hostname: discovery
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
     image: "discovery-server"
 
-  fournisseur:
-    build: ../../Fournisseur
-    environment: 
-      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+
+  Fournisseur:
+    container_name: fournisseur-service
+    build: ./Fournisseur
     ports:
       - "8800:8800"
-    image: "fournisseur-service"
+    hostname: fournisseur
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    image: "candidature-service"
+    depends_on:
+      - discovery-server
 
   facture:
-    build: ../../Factures
-    environment: 
-      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    container_name: facture-service
+    build: ./facture-service
     ports:
       - "8880:8880"
+    hostname: facture
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
     image: "facture-service"
     depends_on:
-      - fournisseur
+      - discovery-server
 
   article:
+    container_name: article
     build: ../../Article
-    environment: 
-      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
     ports:
-      - "8803:8803"
+      - "8085:8085"
+    hostname: article
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
     image: "article-service"
     depends_on:
-      - client
+      - discovery-server
 
-
-     
-  gateway:
-    build: ../../GatewayServerZuul
-    environment: 
-      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+  Categorie:
+    container_name: Categorie-a
+    build: ./categorie-service
     ports:
-      - "8762:8762"
-    image: "gateway-server"
+      - "8086:8086"
+    hostname: categorie
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    image: "categorie-service"
+    depends_on:
+      - discovery-server
 
-    #http://localhost:8762/categorie-service
-    #http://localhost:8762/fournisseur-service
-    #http://localhost:8762/factures-service
-    #http://localhost:8762/client-service
-    #http://localhost:8762/article-service
-    #http://localhost:8888/config-server/default
-  
+  node:
+    container_name: node-service
+    image: "node-service"
+    build: ./node-service
+    ports:
+      - "3000:5000"
+    hostname: node-service
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=eureka-server
+    depends_on:
+      - "Eureka"
+      - "Mongo"
+    command: "node ./index.js"
+
+  Mongo:
+    container_name: Mongo
+    image: "mongo:5-focal"
+    ports:
+      - "27017:27017"
+    hostname: mongodb
+    depends_on:
+      - "discovery-server"

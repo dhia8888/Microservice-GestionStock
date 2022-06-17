@@ -34,8 +34,6 @@ F
 z
 JFacture/src/main/java/com/esprit/facture/repository/FactureRepository.java,6\7\674896a80e5abb6cdd05d14a2c3d6a32e61f486d
 B
-Facture/Dockerfile,7\f\7f2e6e1f03aa8298d90c6feabc9793112406253a
-B
 Article/Dockerfile,f\e\fe650594058ac066f8e78379f5784e85ba68d0af
 F
 Categorie-a/Dockerfile,a\d\adc3e949c3dfc55958840f165664f3da00fb2d84
