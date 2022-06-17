@@ -15,8 +15,6 @@
     <file url="file://$PROJECT_DIR$/GatewayServerZuul/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apigw/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apigw/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/discovery-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/discovery-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
   </component>
 </project>

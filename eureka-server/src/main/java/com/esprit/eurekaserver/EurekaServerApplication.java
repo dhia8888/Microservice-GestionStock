@@ -1,4 +1,4 @@
-package ecommerce.cartservice.eurekaserver;
+package com.esprit.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
