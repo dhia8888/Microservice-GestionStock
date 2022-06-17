@@ -17,6 +17,7 @@
         <module>apigw</module>
         <module>GatewayServerZuul</module>
         <module>eureka-server</module>
+        <module>micrometer-prometheus-grafana</module>
     </modules>
 
 

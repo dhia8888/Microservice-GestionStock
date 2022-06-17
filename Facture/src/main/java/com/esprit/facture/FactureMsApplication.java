@@ -24,7 +24,7 @@ public class FactureMsApplication {
 	ApplicationRunner init() {
 		return (args) -> { 
 			// save
-			repository.save(new Facture("Mariem", "Ch", "ma@esprit.tn"));
+			repository.save(new Facture("ysser", "Ch", "ma@esprit.tn"));
 			
 			// fetch
 			repository.findAll().forEach(System.out::println);

@@ -15,9 +15,9 @@
         <module name="GatewayServerZuul" />
         <module name="Article" />
         <module name="Zuul" />
+        <module name="micrometer-prometheus-grafana" />
         <module name="Client" />
         <module name="eureka-server" />
-        <module name="discovery-service" />
         <module name="Facture" />
       </profile>
       <profile name="Annotation profile for GestionStock" enabled="true">
@@ -30,6 +30,8 @@
     <bytecodeTargetLevel>
       <module name="Categorie" target="1.8" />
       <module name="config-server" target="1.8" />
+      <module name="demo-micrometer-prometheus-grafana" target="8" />
+      <module name="discovery-service" target="8" />
       <module name="HystrixDashboard" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -41,6 +43,7 @@
       <module name="GatewayServerZuul" options="-parameters" />
       <module name="HystrixDashboard" options="-parameters" />
       <module name="apigw" options="-parameters" />
+      <module name="demo-micrometer-prometheus-grafana" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>

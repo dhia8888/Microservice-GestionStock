@@ -5,12 +5,8 @@ w
 GArticle/src/main/java/com/esprit/article/ResourceNotFoundException.java,5\0\501925c7f2a69180ac4b4b0e8eba25d179bec532
 z
 JArticle/src/main/java/com/esprit/article/controller/articleController.java,3\a\3a898f7ac2c3a7f32c3c90992436109bfbcab340
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ?
 Article/pom.xml,f\7\f7d992e48c6ff557255a221a9698f8f12a0c71fe
-r
-BArticle/src/main/java/com/esprit/article/ArticleMsApplication.java,8\f\8fd2d8a4afbc6420d9037f8b59f3f41bf8a14d1f
 ƒ
 SCategorie-a/src/main/java/com/esprit/categories/repository/CategorieRepository.java,b\b\bb5e63ca25b132ca9626bbb042d6067715eb7915
 {
@@ -25,9 +21,5 @@ FCategorie-a/src/main/java/com/esprit/categories/entitiy/Categorie.java,5\a\5a6
 Sdiscovery-server/src/main/java/com/esprit/discovery/DiscoveryServerApplication.java,5\1\51469cc90cad85e5026e998def3e9557b7053649
 C
 Categorie-a/pom.xml,9\7\9782684a79299869249e7f2aca9b5215ebb3b543
-z
-JFacture/src/main/java/com/esprit/facture/repository/FactureRepository.java,6\7\674896a80e5abb6cdd05d14a2c3d6a32e61f486d
-B
-Article/Dockerfile,f\e\fe650594058ac066f8e78379f5784e85ba68d0af
 F
 Categorie-a/Dockerfile,a\d\adc3e949c3dfc55958840f165664f3da00fb2d84
