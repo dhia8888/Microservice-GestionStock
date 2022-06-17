@@ -11,16 +11,16 @@ services:
     image: "discovery-server"
 
   Gateway:
-    container_name: api-gateway
-    build: ../../apigw
+    container_name: GatewayServerZuul
+    build: ../../GatewayServerZuul
     ports:
       - "8054:8054"
-    hostname: api-gateway
+    hostname: GatewayServerZuul
     environment:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
-    image: "api-gateway"
+    image: "gateway_serverzuul"
     depends_on:
-      - Eureka
+      - discovery-server
   Fournisseur:
     container_name: fournisseur-service
     build: ../../Fournisseur
